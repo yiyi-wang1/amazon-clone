@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Header from'./Header';
-import Home from'./Home';
-import Checkout from './Checkout';
-import Login from './Login';
-import Payment from './Payment';
-import Orders from './Orders';
-import { auth } from './firebase';
+import Header from'./Component/Header/Header';
+import Home from'./Component/Home/Home';
+import Checkout from './Component/Checkout/Checkout';
+import Login from './Component/Login/Login';
+import Payment from './Component/Payment/Payment';
+import Orders from './Component/Orders/Orders';
+import Footer from './Component/Footer/Footer';
+import Profile from './Component/Profile/Profile';
+import { auth, db } from './firebase';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useStateValue } from './StateProvider';
 import { loadStripe } from '@stripe/stripe-js';
@@ -51,8 +53,10 @@ function App() {
           />
           <Route path="/checkout" element={<div><Header /><Checkout /></div>} />
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={<div><Header /><Home /></div>}/>
+          <Route path="/profile" element={<div><Header /><Profile /></div>} />
+          <Route path="/" element={<div><Header /><Home /></div>} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
