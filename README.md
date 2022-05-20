@@ -44,6 +44,7 @@
 
 This is an Amazon clone project. You can register, login, browser product, checkout, pay(**real payment!**) and check your orders!
 Check the below and this repo for more detail!
+![AmazonClone](https://user-images.githubusercontent.com/90237052/169599880-900c8100-07ee-499c-93be-f95346b966f7.gif)
 
 ### Built With
 
