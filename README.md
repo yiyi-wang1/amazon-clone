@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/yiyi-wang1/amazon-clone">
+    <img src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" alt="Logo" width="120" height="60">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Amaozn Clone Project</h3>
 
-## Available Scripts
+  <p align="center">
+    An Amazon Clone Project built with React, Express Firebase and Stripe API!
+    <br/>
+    <h3><a href="https://clone-89948.web.app/"><strong>View Live Demo</strong></a></h3>
+  </p>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#futurework">Future work</a></li>
+  </ol>
+</details>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm test`
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is an Amazon clone project. You can register, login, browser product, checkout, pay(**real payment!**) and check your orders!
+Check the below and this repo for more detail!
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Front-end built with 
+* [React.js](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com)
+* CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Back-end (using Firebase server) built with
+* [Express.js](https://expressjs.com/)
+* [Firebase](https://firebase.google.com/)
+* [Stripe API](https://stripe.com/en-ca)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Database
+* [Firestore](https://firebase.google.com/products/firestore)
 
-### `npm run eject`
+<!-- GETTING STARTED -->
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run this project, you will need npm installed.
 
-## Learn More
+  ```sh
+  npm install npm@latest -g
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Go to the root of this project, run the following, see the web running on [http://localhost:3000](http://localhost:3000) on your browser
 
-### Code Splitting
+   ```sh
+   npm start
+   ```
+4. To bulid this app, run 
+   ```sh
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- CONTACT -->
+## Contact
 
-### Making a Progressive Web App
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-### Advanced Configuration
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- FUTUREWORK -->
+## Future Work
+There are some work on this project: 
+1. The product data is stored on constant.js, not on the database
+2. No search feature for this project
+3. No product detail page
+4. User basket data should be stored on database
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
