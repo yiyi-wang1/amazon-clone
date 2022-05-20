@@ -1,8 +1,7 @@
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="https://github.com/yiyi-wang1/amazon-clone">
-    <img src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" alt="Logo" width="120" height="60">
+    <img src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG" alt="Logo" width="120" height="50">
   </a>
 
   <h3 align="center">Amaozn Clone Project</h3>
