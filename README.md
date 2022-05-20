@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 
 This is an Amazon clone project. You can register, login, browser product, checkout, pay(**real payment!**) and check your orders!
 Check the below and this repo for more detail!
@@ -64,7 +64,6 @@ Database
 ## Getting Started
 
 
-
 ### Prerequisites
 
 To run this project, you will need npm installed.
@@ -77,7 +76,7 @@ To run this project, you will need npm installed.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/yiyi-wang1/amazon-clone.git
    ```
 2. Install NPM packages
    ```sh
@@ -98,9 +97,9 @@ To run this project, you will need npm installed.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Yiyi Wang - eewang1145@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: https://github.com/yiyi-wang1/amazon-clone
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
